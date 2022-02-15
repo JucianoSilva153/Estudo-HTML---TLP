@@ -1,0 +1,10 @@
+h1, h5{
+    margin: 0px;
+    padding: 0px;
+}
+
+.div1{
+    background-color: chocolate;
+    color: white;
+    padding: 10px;
+}

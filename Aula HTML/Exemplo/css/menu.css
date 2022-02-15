@@ -1,0 +1,84 @@
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    left: 900px;
+}
+
+h1{
+    margin: 0px 0px;
+}
+
+h3{
+    margin: 0px 0px;
+}
+
+#menu h1{
+    margin-bottom: 20px;
+}
+
+#cabecalho{
+    border-bottom: 2px solid orange;
+}
+
+hgroup{
+    margin-bottom: 10px;
+    color: orange;
+}
+
+nav#menu ul li:hover{
+    transition: 0.8s;
+    background-color: peru;
+}
+
+nav#menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav#menu ul li{
+    display: inline;
+    padding: 8px;
+    margin: 8px;
+    background-color: orange;
+}
+
+/* #interface img{
+    width: 60%;
+} */
+
+
+.conteudo1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 10px;
+}
+
+.conteudo1 img{
+    width: 30%;
+    margin: 2px;
+    /* flex-wrap: wrap; */
+}
+
+.conteudo2{
+    float: left;
+    width: 40%;
+    border-left: 2px solid orange;
+}
+
+.conteudos{
+    display: flex;
+    flex: wrap;
+}
+
+.conteudo2 .card{
+    margin: 10px;
+    color:white;
+    background-color: orange;
+    padding: 20px;
+}

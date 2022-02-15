@@ -1,0 +1,20 @@
+table{
+    border: 2px solid greenyellow;
+    background-color:green;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+
+table td, th{
+    border: 2px solid rgb(96, 134, 39);
+    padding: 5px;
+}
+
+body{
+    background-image: url("../img/Criação-de-sites.jpg");
+}
+
+h1{
+    color: white;
+}

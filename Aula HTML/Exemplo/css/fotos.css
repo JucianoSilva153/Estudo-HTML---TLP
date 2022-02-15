@@ -1,0 +1,39 @@
+.foto img{
+   width: 100%;
+}
+
+.lista-fotos{
+    /* margin-left: 20%;
+    display: flex-box;
+    flex-direction: column; */
+    
+}
+
+.lista-fotos figure{
+    display: inline-block;
+    width: 25%;
+}
+
+.lista-fotos figure figcaption{
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.foto {
+    position: relative;
+}
+
+.foto figcaption:hover{
+    opacity: 1;
+    transition: 1s;
+}
+.foto{
+    border: 6px solid grey;
+    width: 30%;
+}
